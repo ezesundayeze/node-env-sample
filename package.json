@@ -1,0 +1,19 @@
+{
+  "name": "configuration-how-to",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "NODE_ENV=development jest",
+    "dev": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1"
+  }
+}
